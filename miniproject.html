@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #6200ea;
+            display: flex;
+            align-items: center;
+        }
+        header nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+        }
+        header nav a:hover {
+            color: #6200ea;
+        }
+        header .contact-button {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 1rem 1rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+        header .contact-button:hover {
+            background-color: #3700b3;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+            background-color: #fff;
+            color: #333;
+            margin-top: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .box-container {
+            max-width: 50%;
+        }
+        .box-container h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .box-container h1 span {
+            color: #9c27b0;
+        }
+        .box-container p {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .box-container button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .box-container button:hover {
+            background-color: #0056b3;
+        }
+        .hero-image {
+            max-width: 45%;
+        }
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> IK Developers</div>
+        <nav>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Blog</a>
+            <a href="#">How it Works</a>
+            <a href="#">Hire</a>
+        </nav>
+        <a href="#" class="contact-button">Contact us</a>
+    </header>
+    <section class="container">
+        <div class="box-container">
+            <h1>Great <span>Product</span> is <br> built by great <span>teams</span></h1>
+            <p>We help build and manage a team of world-class developers to bring your vision to life.</p>
+            <button>Let’s get started!</button>
+        </div>
+        <div class="hero-image">
+            <img src="photo.png" alt="Team working illustration">
+        </div>
+    </section>
+</body>
+</html>
